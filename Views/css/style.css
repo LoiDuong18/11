@@ -388,7 +388,7 @@ height: 50px;
     left: 89%;
     z-index: 1;
     background-color: #f4a137;
-    border: 4px solid #f4a137;
+    border: 3.5px solid #f4a137;
     border-radius: 0 15px 15px 0;
     font-weight: bold;
     font-size: 15px;
@@ -461,7 +461,7 @@ height: 50px;
     background-color: #F2F2F2;
     margin-top: 40px;
     margin-bottom: 0px;
-}    
+}
 .this p{
   /* vertical-align: middle;
   border-style: none;

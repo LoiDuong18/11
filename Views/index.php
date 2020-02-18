@@ -3,6 +3,7 @@
         <div class="container child-main">
             <div class="top-item">
                 <div class="left-top-item">
+                  <img src="img/co.png" alt="">
                     <select class="language" name="language">
                         <option value="us">English</option>
                         <option value="vie">Vietnamese</option>
@@ -56,18 +57,12 @@
 							<li>
 								<a href="#">HOME</a>
 							</li>
-							<li>
-								<a href="#">HOME</a>
-							</li>
 						</ul>
 					</li>
 					<li class="dropdown">
 						<a href="#" class="dropdown-parent">NEW ARRIVALS <img src="img/dropdown.png" alt=""> </a>
 						<img class="new" src="img/new.png" alt="">
 						<ul class="dropdown-child">
-							<li>
-								<a href="#">NEW ARRIVALS</a>
-							</li>
 							<li>
 								<a href="#">NEW ARRIVALS</a>
 							</li>
@@ -79,9 +74,6 @@
 					<li class="dropdown">
 						<a href="#" class="dropdown-parent">SPECIAL <img src="img/dropdown.png" alt=""> </a>
 						<ul class="dropdown-child">
-							<li>
-								<a href="#">SPECIAL</a>
-							</li>
 							<li>
 								<a href="#">SPECIAL</a>
 							</li>
@@ -212,7 +204,6 @@
 													}
 													echo "<br><i><small>(".$rates."/5.0)</small></i>";
 												}
-
 												echo "<div class='price_arrivals'>
 													<span class='new_price'>$$value->newprice</span>
 													<span class='old_price'>$$value->oldprice</span>
@@ -226,7 +217,6 @@
 										</div>";
 										}
 									?>
-
 							</div>
 						</div>
 					</div>
@@ -235,7 +225,7 @@
 			<div class="banner">
 				<img src="img/Banner.png" alt="">
 			</div>
-        </div>
+    </div>
 		<div class="new_blog">
 			<div class="container">
 				<div class="row">
@@ -243,7 +233,7 @@
 						<p class="title_blog">THIS WEEK</p>
 						<p class="content_blog">Introducing James Jagger for AW16 Men’s</p>
 						<a href="#">View more</a>
-						<p class="content_blog">Introducing James Jagger for AW16 Men’s</p>
+						<p class="content_blog">Autumn Winter 2016</p>
 						<a href="#">View more</a>
 						<p class="content_blog">Introducing James Jagger for AW16 Men’s</p>
 						<a href="#">View more</a>
@@ -262,10 +252,51 @@
 				</div>
 			</div>
 		</div>
-		<div class="footer">
-			<div class="social">
-				<p>FOLLOW US</p>
-				<img src="" alt="">
+    <div class="footer">
+			<div class="row">
+				<div class="center-top-item">
+						<ul class="child-center">
+								<li>
+										<p>FOLLOW US</p>
+								</li>
+								<li>
+										<a href="https://www.facebook.com/zuck"><img src="img/facebook.png" alt=""><span></span></a>
+								</li>
+								<li>
+										<a href="#"><img src="img/twitter.png" alt=""><span></span></a>
+								</li>
+								<li>
+										<a href="#"><img src="img/googleplus.png" alt=""><span></span></a>
+								</li>
+								<li>
+										<a href="#"><img src="img/volbal.png" alt=""><span></span></a>
+								</li>
+								<li>
+										<a href="#"><img src="img/intargram.png" alt=""><span></span></a>
+								</li>
+								<li>
+										<a href="#"><img src="img/youtube.png" alt=""><span></span></a>
+								</li>
+						</ul>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col col-6 ourshops">
+					<p class="title_OUR">OUR SHOPS</p>
+					<p class="content_OUR">product Support</p>
+					<p class="content_OUR">PC Setup & Support</p>
+					<p class="content_OUR">Services</p>
+					<p class="content_OUR">Extended Services Plans</p>
+					<p class="content_OUR">Community</p>
+				</div>
+				<div class="col col-6 ourshops">
+					<p class="title_OUR">OUR SHOPS</p>
+					<p class="content_OUR">product Support</p>
+					<p class="content_OUR">PC Setup & Support</p>
+					<p class="content_OUR">Services</p>
+					<p class="content_OUR">Extended Services Plans</p>
+					<p class="content_OUR">Community</p>
+				</div>
 			</div>
 		</div>
     </div>
