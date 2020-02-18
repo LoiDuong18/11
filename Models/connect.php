@@ -2,7 +2,7 @@
     $host = "localhost";
     $userDB = "root";
     $passDB = "";
-    $nameDB = "tada";
+    $nameDB = "1TTT";
     $connect = new mysqli($host, $userDB, $passDB, $nameDB);
     $connect->set_charset("utf8");
     if ($connect->connect_error) {
